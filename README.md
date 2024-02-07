@@ -43,7 +43,7 @@ The primary goal is to ensure the reliability and functionality of the website t
    - A set of manual test cases that test the functionality of the calendar and map link on the main page
 
 10. **Waste Management Page Tests**
-   - A set of manual test cases that test the functionality of the file table and RSS button on the Village Life page in the Waste Management subpage
+    - A set of manual test cases that test the functionality of the file table and RSS button on the Village Life page in the Waste Management subpage
 
 11. **Municipal Office Page Links Tests**
    - A set of manual test cases that test the links on the Municipal Office page
