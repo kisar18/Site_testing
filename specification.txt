@@ -1,0 +1,1090 @@
+ID - TS_Krelov_01
+Název - Testing software project Krelov
+Autor - Martin Půr
+Popis - Specifikace všech testovacích případů projektu
+Datum - 10.5.2021
+Verze - 1.0
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Post-conditions
+	1) Zavřít internetový prohlížeč
+	
+		*****Testovací sada*****
+		ID - TS_01
+		Název - TS-cases01_main
+		Autor - Martin Půr
+		Popis - Sada automatizovaných testovacích případů, která testuje komponenty hlavní stránky
+		Datum - 10.5.2021
+		Verze - 1.0
+
+			*****Testovací případ*****
+			ID - TC_01_01
+			Název - TC_01_01-MainPage_Basic_Components_Small_Window
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující komponenty na hlavní stránce v malém okně
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme viditelnost základních komponent, jako jsou: obrázek hlavičky, emblem, ikona menu a vyhledávací ikona
+
+			*****Testovací případ*****
+			ID - TC_01_02
+			Název - TC_01_02-MainPage_Basic_Components_Big_Window
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující komponenty na hlavní stránce na v celé obrazovce
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Maximalizujeme okno prohlížeče
+				2) Zkontrolujeme viditelnost základních komponent, jako jsou: obrázek hlavičky, emblem, ikona menu a vyhledávací ikona
+
+			*****Testovací případ*****
+			ID - TC_01_03
+			Název - TC_01_03-MainPage_Header_TopMenu
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující horní menu na hlavní stránce
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme viditelnost prvního prvku menu v hlavičce
+				2) Najedeme myší na druhý prvek hlavičkového menu
+				3) Zkontrolujeme viditelnost druhého prvku a jeho dropdownu v menu hlavičky
+				4) Najedeme myší na třetí prvek hlavičkového menu
+				5) Zkontrolujeme viditelnost třetího prvku a jeho dropdownu v menu hlavičky
+				6) Najedeme myší na čtvrtý prvek hlavičkového menu
+				7) Zkontrolujeme viditelnost čtvrtého prvku a jeho dropdownu v menu hlavičky
+				8) Zkontrolujeme viditelnost pátého prvku menu v hlavičce
+				9) Najedeme myší na šestý prvek hlavičkového menu
+				10) Zkontrolujeme viditelnost šestého prvku a jeho dropdownu v menu hlavičky
+				11) Zkontrolujeme viditelnost sedmého prvku menu v hlavičce
+
+			*****Testovací případ*****
+			ID - TC_01_04
+			Název - TC_01_04-MainPage_MainContent_Menu
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující menu v těle hlavní stránky
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme viditelnost prvního prvku menu v tělu stránky
+				2) Zkontrolujeme viditelnost druhého prvku menu v tělu stránky
+				3) Zkontrolujeme viditelnost třetího prvku menu v tělu stránky
+
+			*****Testovací případ*****
+			ID - TC_01_05
+			Název - TC_01_05-MainPage_Header_Swaping_Images
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující změnu obrázků v hlavičce hlavní stránky
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Klikneme myší na první kolečko v pravém dolním rohu hlavičky
+				2) Klikneme myší na druhé kolečko v pravém dolním rohu hlavičky
+				3) Klikneme myší na třetí kolečko v pravém dolním rohu hlavičky
+
+			*****Testovací případ*****
+			ID - TC_01_06
+			Název - TC_01_06-MainPage_Partners_Links
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující odkazy na partnery obce na hlavní stránce
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme viditelnost bloku, ve kterém se nacházejí linky na partnery obce 
+				2) Klikneme myší na ikonu prvního partnera obce a stiskneme klávesu PRINTSCREEN
+				3) Vrátíme se na záložku prohlížeče, ve které je hlavní stránka obce
+				4) Klikneme myší na ikonu druhého partnera obce a stiskneme klávesu PRINTSCREEN
+				5) Vrátíme se na záložku prohlížeče, ve které je hlavní stránka obce
+				6) Klikneme myší na ikonu třetího partnera obce a stiskneme klávesu PRINTSCREEN
+				7) Vrátíme se na záložku prohlížeče, ve které je hlavní stránka obce
+				8) Klikneme myší na ikonu čtvrtého partnera obce a stiskneme klávesu PRINTSCREEN  partner4.png  ${NewURL}
+
+			*****Testovací případ*****
+			ID - TC_01_07
+			Název - TC_01_07-MainPage_Search_Informations
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující možnost vyhledat informaci na hlavní stránce
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme viditelnost ikony lupy v hlavičce hlavní stránky
+				2) Klikneme myší na ikonu lupy
+				3) Zkontrolujeme viditelnost řádku pro psaní textu k vyhledávání
+				4) Klikneme myší do textového pole pro zapsání textu pro vyhledávání
+				5) Napíšeme do textového pole slovo "Sport"
+				6) Zkontrolujeme viditelnost vnitřní ikony lupy v textovém poly vyhledávání
+				7) Klikneme myší na vnitřní ikonu lupy pro vyhledání napsaného výrazu
+				8) Zkontrolujeme viditelnost ikony lupy v hlavičce
+				9) Klikneme myší na ikonu lupy
+				10) Zkontrolujeme viditelnost řádku pro psaní textu k vyhledávání
+				11) Klikneme myší do textového pole pro zapsání textu pro vyhledávání
+				12) Napíšeme do textového pole slovo "Zpravodaj"
+				13) Zkontrolujeme viditelnost vnitřní ikony lupy v textovém poly vyhledávání
+				14) Klikneme myší na vnitřní ikonu lupy pro vyhledání napsaného výrazu
+				15) Zkontrolujeme viditelnost ikony lupy v hlavičce
+				16) Klikneme myší na ikonu lupy
+				17) Zkontrolujeme viditelnost řádku pro psaní textu k vyhledávání
+				18) Klikneme myší do textového pole pro zapsání textu pro vyhledávání
+				19) Napíšeme do textového pole slovo "Kontakt"
+				20) Zkontrolujeme viditelnost vnitřní ikony lupy v textovém poly vyhledávání
+				21) Klikneme myší na vnitřní ikonu lupy pro vyhledání napsaného výrazu
+
+			*****Testovací případ*****
+			ID - TC_01_08
+			Název - TC_01_08-MainPage_Recent_Events
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující oblast kalendář akcí, která je tvořena tlačítky
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme viditelnost okna Kalendář akcí na hlavní stránky
+				2) Klikneme myší na Kalendář akcí
+				3) Zkontrolujeme viditelnost první (levé) události
+				4) Klikneme myší na první událost
+				5) Klikneme v prohlížeči na tlačítko zpět
+				6) Zkontrolujeme viditelnost okna Kalendář akcí na hlavní stránky
+				7) Klikneme myší na Kalendář akcí
+				8) Zkontrolujeme viditelnost druhé události
+				9) Klikneme myší na druhou událost
+				10) Klikneme v prohlížeči na tlačítko zpět
+				11) Zkontrolujeme viditelnost okna Kalendář akcí na hlavní stránky
+				12) Klikneme myší na Kalendář akcí
+				13) Zkontrolujeme viditelnost třetí události
+				14) Klikneme myší na třetí událost
+				15) Klikneme v prohlížeči na tlačítko zpět
+
+			*****Testovací případ*****
+			ID - TC_01_09
+			Název - TC_01_09-MainPage_Official_Desk
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující úřední desku na hlavní stránce
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme viditelnost první (horní) informace na úřední desce na hlavní stránce
+				2) Klikneme myší na první informaci na úřední desce
+				3) Klikneme myší v prohlížeči na tlačítko zpět
+				4) Zkontrolujeme viditelnost druhé informace na úřední desce na hlavní stránce
+				5) Klikneme myší na druhou informaci na úřední desce
+				6) Klikneme myší v prohlížeči na tlačítko zpět
+				7) Zkontrolujeme viditelnost třetí informace na úřední desce na hlavní stránce
+				8) Klikneme myší na třetí informaci na úřední desce
+				9) Klikneme myší v prohlížeči na tlačítko zpět
+
+		*****Testovací sada*****
+		ID - TS_02
+		Název - TS-cases02_VillageLife
+		Autor - Martin Půr
+		Popis - Sada automatizovaných testovacích případů, která testuje přihlášení se k odběru novinek o obci na stránce Život v obci
+		Datum - 10.5.2021
+		Verze - 1.0
+		Pre-conditions
+			1) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Aktuality"
+			2) Zkontrolujeme viditelnost tlačítka "Přihlásit se k odběru novinek"
+			3) Klikneme myší na tlačítko "Přihlásit se k odběru novinek"
+
+
+			*****Testovací případ*****
+			ID - TC_02_01
+			Název - TC_02_01-VillageLifePage_Register_For_Getting_News_To_Email_With_No_Email
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující registrování pro odběr novinek bez zadání informací
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Klikneme myší na tlačítko "Přihlásit se k odběru"
+
+			*****Testovací případ*****
+			ID - TC_02_02
+			Název - TC_02_02-VillageLifePage_Register_For_Getting_News_To_Email_With_No_@_In_Email
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující registrování pro odběr novinek se zadáním emailu bez zavináče
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Do pole pro email zadáme "testing.email"
+				2) Klikneme myší na tlačítko "Přihlásit se k odběru"
+
+			*****Testovací případ*****
+			ID - TC_02_03
+			Název - TC_02_03-VillageLifePage_Register_For_Getting_News_To_Email_With_No_Suffix_In_Email
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující registrování pro odběr novinek se zadáním emailu bez koncovky
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Do pole pro email zadáme "testing@email"
+				2) Klikneme myší na tlačítko "Přihlásit se k odběru"
+
+			*****Testovací případ*****
+			ID - TC_02_04
+			Název - TC_02_04-VillageLifePage_Register_For_Getting_News_To_Email_Correctly
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující registrování pro odběr novinek s platným emailem
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Do pole pro email zadáme "testing@email"
+				2) Klikneme myší na tlačítko "Přihlásit se k odběru"
+
+		*****Testovací sada*****
+		ID - TS_03
+		Název - TS-cases03_Contact
+		Autor - Martin Půr
+		Popis - Sada automatizovaných testovacích případů, která testuje posílání zpráv na stránce Kontakt
+		Datum - 10.5.2021
+		Verze - 1.0
+		Pre-conditions
+			1) V hlavním menu myší klikneme na možnost "Kontakt"
+			2) Scrolujeme myší dolů na formulář pro dotazy
+
+			*****Testovací případ*****
+			ID - TC_03_01
+			Název - TC_03-01-ContactPage_QuestionForm_Blank_Inputs
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující posílání zprávy (dotazu) obci bez vyplněných údajů
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Klikneme myší na tlačítko "Odeslat"
+
+			*****Testovací případ*****
+			ID - TC_03_02
+			Název - TC_03_02-ContactPage_QuestionForm_With_Only_Name
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující posílání zprávy (dotazu) obci s vyplněným pouze jména
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Do pole "Jméno" napíšeme "Tester"
+				2) Klikneme myší na tlačítko "Odeslat"
+
+			*****Testovací případ*****
+			ID - TC_03_03
+			Název - TC_03_03-ContactPage_QuestionForm_With_Email_Without_@
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující posílání zprávy (dotazu) obci se zadaným emailem bez zavináče
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Do pole "Email" napíšeme "testing.email"
+				2) Klikneme myší na tlačítko "Odeslat"
+
+			*****Testovací případ*****
+			ID - TC_03_04
+			Název - TC_03_04-ContactPage_QuestionForm_With_Email_Without_Suffix
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující posílání zprávy (dotazu) obci se zadaným emailem bez koncovky
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Do pole "Email" napíšeme "testing@email"
+				2) Klikneme myší na tlačítko "Odeslat"
+
+			*****Testovací případ*****
+			ID - TC_03_05
+			Název - TC_03_05-ContactPage_QuestionForm_With_Name_And_Email
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující posílání zprávy (dotazu) obci se zadaným jménem a platným emailem
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Do pole "Email" napíšeme "testing@email.com"
+				2) Klikneme myší na tlačítko "Odeslat"
+
+			*****Testovací případ*****
+			ID - TC_03_06
+			Název - TC_03_06-ContactPage_QuestionForm_With_Name_And_Email_Without_Message
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující posílání zprávy (dotazu) obci bez napsané zprávy
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Klikneme myší na tlačítko "Odeslat"
+
+			*****Testovací případ*****
+			ID - TC_03_07
+			Název - TC_03_07-ContactPage_QuestionForm_With_All_Needed_Text_Attributes
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující posílání zprávy (dotazu) obci se všemi potřebnými a platnými informacemi
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Do "Vaše zpráva" napíšeme "Test, tento email neberte vážně"
+				2) Klikneme myší na tlačítko "Odeslat"
+
+		*****Testovací sada*****
+		ID - TS_04
+		Název - TS-cases04_Organizations
+		Autor - Martin Půr
+		Popis - Sada automatizovaných testovacích případů, která testuje komponenty na stránce Spolky v obci
+		Datum - 10.5.2021
+		Verze - 1.0
+		Pre-conditions
+			1) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "T.J. Sokol Křelov"
+
+			*****Testovací případ*****
+			ID - TC_04_01
+			Název - TC_04_01-OrganizationsPage_Sokol_Links_In_Text
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující linky v textu na stránce Spolky v obci u spolku Sokol
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Klikneme myší na první odkaz v textu (začíná slovem "České")
+				2) Stiskneme klávesu PRINTSCREEN
+				3) V prohlížeči klikneme na tlačítko zpět
+				4) Klikneme myší na druhý odkaz v textu (začíná slovem "Olomouckého")
+				5) Stiskneme klávesu PRINTSCREEN
+				6) V prohlížeči klikneme na tlačítko zpět
+				7) Klikneme myší na třetí odkaz v textu (začíná slovem "Sokolské")
+				8) Stiskneme klávesu PRINTSCREEN
+				9) V prohlížeči klikneme na tlačítko zpět
+
+			*****Testovací případ*****
+			ID - TC_04_02
+			Název - TC_04_02-OrganizationsPage_Sokol_Footer_Links
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující linky v zápatí na stránce Spolky v obci u spolku Sokol
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Scrolujeme myší na konec hlavní části stránky
+				2) Klikneme myší na první odkaz T.J. Sokol Křelov (Web)
+				3) Stiskneme klávesu PRINTSCREEN
+				4) V prohlížeči klikneme na tlačítko zpět
+				5) Klikneme myší na druhý odkaz T.J. Sokol Křelov (Facebook)
+				6) Stiskneme klávesu PRINTSCREEN
+				7) V prohlížeči klikneme na tlačítko zpět
+				8) Klikneme myší na třetí odkaz T.J. Sokol Křelov (Kontakty)
+				9) Stiskneme klávesu PRINTSCREEN
+				10) V prohlížeči klikneme na tlačítko zpět
+
+			*****Testovací případ*****
+			ID - TC_04_03
+			Název - TC_04_03-OrganizationsPage_Sokol_Text_In_Paragraphs
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující text na stránce Spolky v obci u spolku Sokol
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme, že první odstavec obsahuje slovo "Tělocvičná"
+				2) Zkontrolujeme, že třetí odstavec obsahuje slovo "členů"
+				3) Zkontrolujeme, že pátý odstavec obsahuje slovo "hřiště"
+
+			*****Testovací případ*****
+			ID - TC_04_04
+			Název - TC_04_04-OrganizationsPage_Farnost_Images
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující obrázky na stránce Spolky v obci u spolku Farnost
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Farnost"
+				2) Zkontrolujeme, že stránka obsahuje obrázek vnitřku kostela
+				3) Zkontrolujeme, že stránka obsahuje obrázek kostelu z venku z levé strany
+				4) Zkontrolujeme, že stránka obsahuje obrázek kostelu z venku z přední strany
+
+			*****Testovací případ*****
+			ID - TC_04_05
+			Název - TC_04_05-OrganizationsPage_Farnost_Links
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující linky na stránce Spolky v obci u spolku Farnost
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Klikneme myší na na první tlačítko v menu stránky (Historie)
+				2) Klikneme myší na na druhé tlačítko v menu stránky (Bohoslužby)
+				3) Klikneme myší na na třetí tlačítko v menu stránky (Kontakty)
+				4) Klikneme myší na na čtvrté tlačítko v menu stránky (Svatý Jiljí)
+
+			*****Testovací případ*****
+			ID - TC_04_06
+			Název - TC_04_06-OrganizationsPage_Farnost_Text
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující text na stránce Spolky v obci u spolku Farnost
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme, že první odstavec obsahuje slovo "zmínky"
+				2) Zkontrolujeme, že šestý odstavec obsahuje slovo "Středa"
+				3) Zkontrolujeme, že desátý odstavec obsahuje slovo "poustevník"
+
+			*****Testovací případ*****
+			ID - TC_04_07
+			Název - TC_04_07-OrganizationsPage_FireFighters_Images
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující obrázky na stránce Spolky v obci u spolku Sbor dobrovolných hasičů
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Sbor dobrovolných hasičů" 
+				2) Zkontrolujeme, že stránka obsahuje obrázek loga Sboru hasičů
+				3) Zkontrolujeme, že stránka obsahuje obrázek hasičského auta
+				4) Zkontrolujeme, že stránka obsahuje obrázek hasičský ples
+
+			*****Testovací případ*****
+			ID - TC_04_08
+			Název - TC_04_08-OrganizationsPage_FireFighters_Text
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující text na stránce Spolky v obci u spolku Sbor dobrovolných hasičů
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme, že první odstavec obsahuje slovo "SDH"
+				2) Zkontrolujeme, že třetí odstavec obsahuje slovo "Sbor"
+				3) Zkontrolujeme, že sedmý odstavec obsahuje slovo "historie"
+
+			*****Testovací případ*****
+			ID - TC_04_09
+			Název - TC_04_09-OrganizationsPage_KungFu_Links
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující linky na stránce Spolky v obci u spolku Taijiquan Shaolin kung-fu
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Taijiquan Shaolin kung-fu" 
+				2) Zkontrolujeme, že link v části "Taiji" po najetí myší zčervená
+				3) Zkontrolujeme, že link v části "Shaolin" po najetí myší zčervená
+				4) Zkontrolujeme, že link v části "Cvičení probíhá v tělocvičně na Obecním úřadě v Křelově" po najetí myší zčervená
+
+			*****Testovací případ*****
+			ID - TC_04_10
+			Název - TC_04_10-OrganizationsPage_KungFu_Text
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující text na stránce Spolky v obci u spolku Taijiquan Shaolin kung-fu
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme, že první odstavec obsahuje slovo "vývojem"
+				2) Zkontrolujeme, že druhý odstavec obsahuje slovo "čínské"
+				3) Zkontrolujeme, že šestý odstavec obsahuje slovo "autobusem"
+
+		*****Testovací sada*****
+		ID - TS_05
+		Název - TS-cases05_VillagDevelopment
+		Autor - Martin Půr
+		Popis - Sada automatizovaných testovacích případů, která testuje komponenty na stránce Rozvoj obce
+		Datum - 10.5.2021
+		Verze - 1.0
+		Pre-conditions
+			1) V hlavním menu myší najedeme na "Rozvoj obce" a klikneme na možnost "Výstavba kanalizace"
+
+			*****Testovací případ*****
+			ID - TC_05_01
+			Název - TC_05_01-VillageDevelopmentPage_Sewerage_Form_Search
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující vyhledávání záznamů v tabulce na stránce Rozvoj obce u podstránky Výstavba kanalizace
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme viditelnost pole pro psaní textu
+				2) Klikneme myší na pole pro zadání textu
+				3) Napíšeme slovo "Rozdělení"
+				4) Stiskneme klávesu ENTER
+				5) Vymažeme slovo z textového pole
+				6) Zkontrolujeme viditelnost pole pro psaní textu
+				7) Klikneme myší na pole pro zadání textu
+				8) Napíšeme slovo "Seznam"
+				9) Stiskneme klávesu ENTER
+				10) Vymažeme slovo z textového pole
+				11) Zkontrolujeme viditelnost pole pro psaní textu
+				12) Klikneme myší na pole pro zadání textu
+				13) Napíšeme slovo "Oznámení"
+				14) Stiskneme klávesu ENTER
+				15) Vymažeme slovo z textového pole
+
+			*****Testovací případ*****
+			ID - TC_05_02
+			Název - TC_05_02-VillageDevelopmentPage_Sewerage_Change_Form_Length
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující změnu délky tabulky se záznamy na stránce Rozvoj obce u podstránky Výstavba kanalizace
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme viditelnost tabulky se záznamy
+				2) Klikneme myší na tlačítko pro výběr délky tabulky
+				3) Stiskneme klávesu UP
+				4) Stiskneme klávesu ENTER
+				5) Zkontrolujeme viditelnost tabulky se záznamy
+				6) Klikneme myší na tlačítko pro výběr délky tabulky
+				7) Stiskneme klávesu UP
+				8) Stiskneme klávesu ENTER
+
+			*****Testovací případ*****
+			ID - TC_05_03
+			Název - TC_05_03-VillageDevelopmentPage_Sewerage_Form_Archive
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující změnu kategorie Zobrazit na Archiv u tabulky se záznamy na stránce Rozvoj obce u podstránky Výstavba kanalizace
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme viditelnost tabulky se záznamy
+				2) Klikneme myší na tlačítko, nad kterým je napsáno "Zobrazit"
+				3) Stiskneme klávesu DOWN
+				4) Stiskneme klávesu ENTER
+
+			*****Testovací případ*****
+			ID - TC_05_04
+			Název - TC_05_04-VillageDevelopmentPage_GrantPrograms_Form_Search
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující vyhledávání záznamů v tabulce na stránce Rozvoj obce u podstránky Dotační programy
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) V hlavním menu myší najedeme na "Rozvoj obce" a klikneme na možnost "Dotační programy"
+				2) Zkontrolujeme viditelnost pole pro psaní textu
+				3) Klikneme myší na pole pro zadání textu
+				4) Napíšeme slovo "Výzva"
+				5) Stiskneme klávesu ENTER
+				6) Vymažeme slovo z textového pole
+				7) Zkontrolujeme viditelnost pole pro psaní textu
+				8) Klikneme myší na pole pro zadání textu
+				9) Napíšeme slovo "Projekt"
+				10) Stiskneme klávesu ENTER
+				11) Vymažeme slovo z textového pole
+				12) Zkontrolujeme viditelnost pole pro psaní textu
+				13) Klikneme myší na pole pro zadání textu
+				14) Napíšeme slovo "dokumentace"
+				15) Stiskneme klávesu ENTER
+				16) Vymažeme slovo z textového pole
+
+			*****Testovací případ*****
+			ID - TC_05_05
+			Název - TC_05_05-VillageDevelopmentPage_GrantPrograms_Texts
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující text na stránce Rozvoj obce u podstránky Dotační programy
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme, že první odstavec obsahuje slovo "Podklady"
+				2) Zkontrolujeme, že druhý odstavec obsahuje slovo "Profil"
+				3) Zkontrolujeme, že třetí odstavec obsahuje slovo "Archiv"
+
+			*****Testovací případ*****
+			ID - TC_05_06
+			Název - TC_05_06-VillageDevelopmentPage_Subsidy_Topics
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující kliknutí na články na stránce Rozvoj obce u podstránky Dotace
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) V hlavním menu myší najedeme na "Rozvoj obce" a klikneme na možnost "Dotace"
+				2) Klikneme myší na první článek v tělu stránky
+				3) V prohlížeči klikneme myší na tlačítko zpět
+				4) Klikneme myší na druhý článek v tělu stránky
+				5) V prohlížeči klikneme myší na tlačítko zpět
+				6) Klikneme myší na třetí článek v tělu stránky
+				7) V prohlížeči klikneme myší na tlačítko zpět
+
+		*****Testovací sada*****
+		ID - TS_06
+		Název - TS-cases06_MunicipalOffice
+		Autor - Martin Půr
+		Popis - Sada automatizovaných testovacích případů, která testuje komponenty na stránce Obecní úřad
+		Datum - 10.5.2021
+		Verze - 1.0
+		Pre-conditions
+			1) V hlavním menu myší najedeme na "Obecní úřad" a klikneme na možnost "Poskytování informací, příjem podání, výroční zprávy"
+
+			*****Testovací případ*****
+			ID - TC_06_01
+			Název - TC_06_01-MunicipalOfficePage_Providing_Informations_Page_Navigation
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující vnitřní navigaci na stránce Obecní úřad u podstránky Poskytování informací
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Klikneme myší na na první tlačítko ve vlastní navigaci stránky (Žádosti o informace)
+				2) Klikneme myší na na druhé tlačítko ve vlastní navigaci stránky (Příjem žádostí a dalších podání)
+				3) Klikneme myší na na třetí tlačítko ve vlastní navigaci stránky (Opravné prostředky)
+
+			*****Testovací případ*****
+			ID - TC_06_02
+			Název - TC_06_02-MunicipalOfficePage_Providing_Informations_Text
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující text na stránce Obecní úřad u podstránky Poskytování informací
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Zkontrolujeme, že sedmý odstavec obsahuje slovo "žádosti"
+				2) Zkontrolujeme, že devátý odstavec obsahuje slovo "Neobsahuje-li"
+				3) Zkontrolujeme, že třináctý odstavec obsahuje slovo "Ostatní"
+
+			*****Testovací případ*****
+			ID - TC_06_03
+			Název - TC_06_03-MunicipalOfficePage_Mandatory_Informations_Links
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující linky na stránce Obecní úřad u podstránky Povinně zveřejňované informace
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) V hlavním menu myší klikneme na "Obecní úřad"
+				2) Stiskneme klávesu CTRL a zároveň klikneme myší na jedenáctý odkaz
+				3) Stiskneme klávesu PRINTSCREEN
+				4) Vrátíme se na záložku prohlížeče, ve které je hlavní stránka obce
+				5) Stiskneme klávesu CTRL a zároveň klikneme myšína dvanáctý odkaz
+				6) Stiskneme klávesu PRINTSCREEN
+				7) Vrátíme se na záložku prohlížeče, ve které je hlavní stránka obce
+
+			*****Testovací případ*****
+			ID - TC_06_04
+			Název - TC_06_04-MunicipalOfficePage_Mandatory_Informations_Text
+			Autor - Martin Půr
+			Typ - Manuální, automatizovaný
+			Popis - Testovací případ testující text na stránce Obecní úřad u podstránky Povinně zveřejňované informace
+			Datum - 4.6.2021
+			Verze - 1.0
+			Testovací kroky
+				1) V hlavním menu myší najedeme na "Obecní úřad" a klikneme na možnost "Povinně zveřejňované informace"
+				2) Zkontrolujeme, že druhý odstavec obsahuje slovo "Obec"
+				3) Zkontrolujeme, že třetí odstavec obsahuje slovo "zákonem"
+				4) Zkontrolujeme, že devátý odstavec obsahuje slovo "záležitosti"
+
+		*****Testovací sada*****
+		ID - TS_07
+		Název - TS_07
+		Autor - Martin Půr
+		Popis - Sada manuálních testovacích případů, která testuje rezervaci tenisových kurtů na stránce Sport
+		Datum - 10.5.2021
+		Verze - 1.0
+
+			*****Testovací případ*****
+			ID - TC_07_01
+			Název - TC_07_01-SportPage_Tennis_Reservation_Without_All_Informations
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na stránce Sport zkouší rezervovat tenisový kurt bez zadání informací o osobě, která chce vytvořit rezervaci
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Sport" a klikneme na možnost "Rezervační systém - TENISOVÉ KURTY"
+
+			Testovací kroky
+				1) Klikneme myší na libovolný neobsazený termín (políčko se zelenou barvou)
+				2) Klikneme myší na tlačitko Vytvořit
+
+			Očekávaný výsledek
+				Objeví se alert, který nás vyzývá k zadání názvu
+
+			*****Testovací případ*****
+			ID - TC_07_02
+			Název - TC_07_02-SportPage_Tennis_Reservation_With_Only_Title
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který zkouší na stránce Sport rezervovat tenisový kurt se zadáním pouze názvu rezervace
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Sport" a klikneme na možnost "Rezervační systém - TENISOVÉ KURTY"
+
+			Testovací kroky
+				1) Klikneme myší na libovolný neobsazený termín (políčko se zelenou barvou)
+				2) Do pole "Název/nadpis" napíšeme "Rezervace"
+				3) Klikneme myší na tlačitko Vytvořit
+
+			Vstupní data
+				Rezervace
+
+			Očekávaný výsledek
+				Objeví se alert, který nás vyzývá k zadání platného emailu
+
+			*****Testovací případ*****
+			ID - TC_07_03
+			Název - TC_07_03-SportPage_Tennis_Reservation_With_Email_Without_At-sign
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který zkouší na stránce Sport rezervovat tenisový kurt se zadáním emailu bez zavináče
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Sport" a klikneme na možnost "Rezervační systém - TENISOVÉ KURTY"
+
+			Testovací kroky
+				1) Klikneme myší na libovolný neobsazený termín (políčko se zelenou barvou)
+				2) Do pole "Název/nadpis" napíšeme "Rezervace"
+				3) Do pole "Email" napíšeme "testing.email"
+				4) Klikneme myší na tlačitko Vytvořit
+
+			Vstupní data
+				Rezervace
+				testing.email
+
+			Očekávaný výsledek
+				Pod polem emailu se objeví upozornění, který nás vyzývá k zadání emailu se zavináčem
+
+			*****Testovací případ*****
+			ID - TC_07_04
+			Název - TC_07_04-SportPage_Tennis_Reservation_With_Email_Without_Suffix
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který zkouší na stránce Sport rezervovat tenisový kurt se zadáním emailu bez platné koncovky
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Sport" a klikneme na možnost "Rezervační systém - TENISOVÉ KURTY"
+
+			Testovací kroky
+				1) Klikneme myší na libovolný neobsazený termín (políčko se zelenou barvou)
+				2) Do pole "Název/nadpis" napíšeme "Rezervace"
+				3) Do pole "Email" napíšeme "testing@email"
+				4) Klikneme myší na tlačitko Vytvořit
+
+			Vstupní data
+				Rezervace
+				testing@email
+
+			Očekávaný výsledek
+				Objeví se alert, který nás vyzývá k zadání platného emailu
+
+			*****Testovací případ*****
+			ID - TC_07_05
+			Název - TC_07_05-SportPage_Tennis_Reservation_With_Correct_Informations
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který zkouší na stránce Sport rezervovat tenisový kurt se zadáním platných informací
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Sport" a klikneme na možnost "Rezervační systém - TENISOVÉ KURTY"
+
+			Testovací kroky
+				1) Klikneme myší na libovolný neobsazený termín (políčko se zelenou barvou)
+				2) Do pole "Název/nadpis" napíšeme "rezervace"
+				3) Do pole "Email" napíšeme "m_pur@utb.cz"
+				4) Klikneme myší na tlačitko Vytvořit
+
+			Vstupní data
+				Rezervace
+				m_pur@utb.cz
+
+			Očekávaný výsledek
+				Objeví se oznámení o úspěšně vytvořené rezervaci
+
+		*****Testovací sada*****
+		ID - TS_08
+		Název - TS_08
+		Autor - Martin Půr
+		Popis - Sada manuálních testovacích případů, která testuje link a obrázkek na stránce Spolky v obci ve spolku Myslivci
+		Datum - 10.5.2021
+		Verze - 1.0
+
+			*****Testovací případ*****
+			ID - TC_08_01
+			Název - TC_08_01-OrganizationsPage_Hunters_Hover_On_Link
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který testuje vlastnost hover u linku v textu na stránce Spolky v obci u spolku Myslivci
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Myslivci Křelov"
+
+			Testovací kroky
+				1) Najedeme myší do třetího odstavce na druhý řádek a na druhé slovo ("zajíci")
+
+			Očekávaný výsledek
+				Slovo (link) "zajíci" změní barvu na #bd2b1d hex.
+
+			*****Testovací případ*****
+			ID - TC_08_02
+			Název - TC_08_02-OrganizationsPage_Hunters_Picture
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který ověří zobrazení obrázku po kliknutí na link na stránce Spolky v obci ve spolku Myslivci
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Myslivci Křelov"
+
+			Testovací kroky
+				1) Najedeme myší do třetího odstavce na druhý řádek a na druhé slovo ("zajíci")
+				2) Klikneme myší na toto slovo
+
+			Očekávaný výsledek
+				Otevře se nová záložka internetového prohlížeče, na které se zobrazí obrázek zajíce
+
+		*****Testovací sada*****
+		ID - TS_09
+		Název - TS_09
+		Autor - Martin Půr
+		Popis - Sada manuálních testovacích případů, která testuje funkčnost kalendáře a odkazu na mapu na hlavní stránce
+		Datum - 10.5.2021
+		Verze - 1.0
+
+			*****Testovací případ*****
+			ID - TC_09_01
+			Název - TC_09_01-MainPage_Calendar_Change_Month
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na hlavní stránce ověří možnost v kalendáři změnit měsíc
+			Datum - 10.5.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Scrolujeme kolečkem u myši dolů dokud neuvidíme kalendář
+				2) Najedeme myší na tlačítko pro další měsíc
+				3) Klikneme na tlačítko dalšího měsíce
+
+			Očekávaný výsledek
+				Kalendář změní svůj lavní obsah na následující měsíc
+
+			*****Testovací případ*****
+			ID - TC_09_02
+			Název - TC_09_02-MainPage_Calendar_Hover_On_Non_Colored_Day
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na hlavní stránce otestuje vlastnost hover v kalendáři u dne bez barevného kruhu na pozadí
+			Datum - 10.5.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Scrolujeme kolečkem u myši dolů dokud neuvidíme kalendář
+				2) Najedeme myší na číslo dnu, které na sobě nemá barevný kruh
+
+			Očekávaný výsledek
+				U daného dne se objeví kolečko s barvou #bd2b1d hex
+
+			*****Testovací případ*****
+			ID - TC_09_03
+			Název - TC_09_03-MainPage_Calendar_Hover_On_Red_Day
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na hlavní stránce otestuje vlastnost hover v kalendáři u dne s červeným kruhem
+			Datum - 10.5.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Scrolujeme kolečkem u myši dolů dokud neuvidíme kalendář
+				2) Najedeme myší na číslo dnu, které na sobě má červený kruh
+
+			Očekávaný výsledek
+				Nad daným dnem se zobrazí krátký popis události, která se koná v daný den
+
+			*****Testovací případ*****
+			ID - TC_09_04
+			Název - TC_09_04-MainPage_Map
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na hlavní stránce ověří tlačítko mapy, které zobrazí na nové záložce umístění obce na mapě
+			Datum - 10.5.2021
+			Verze - 1.0
+			Testovací kroky
+				1) Scrolujeme kolečkem u myši dolů dokud neuvidíme tlačítko "Kde najdete naši obec?"
+				2) Klikneme myší na toto tlačítko
+
+			Očekávaný výsledek
+				Otevře se nová záložka internetového prohlížeče, na které se zobrazí mapa obce
+
+		*****Testovací sada*****
+		ID - TS_10
+		Název - TS_10
+		Autor - Martin Půr
+		Popis - Sada manuálních testovacích případů, která testuje na stránce Život v obci v podstránce Odpadové hospodářství funkčnost tabulky se soubory a tlačítka RSS
+		Datum - 10.5.2021
+		Verze - 1.0
+
+			*****Testovací případ*****
+			ID - TC_10_01
+			Název - TC_10_01-VillageLifePage_WasteManagement_Change_Year
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na stránce Život v obci v podstránce Odpadové hospodářství otestuje změnu roku u tabulky se soubory
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Odpadové hospodářství"
+
+			Testovací kroky
+				1) V části "Kategorie" klikneme na "2017"
+
+			Očekávaný výsledek
+				Tabulka se soubory bude obsahovat pouze dva soubory
+
+			*****Testovací případ*****
+			ID - TC_10_02
+			Název - TC_10_02-VillageLifePage_WasteManagement_Choose_Non_Year_Category
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na stránce Život v obci v podstránce Odpadové hospodářství otestuje ne číselnou (roční) kategorii u tabulky se soubory
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Odpadové hospodářství"
+
+			Testovací kroky
+				1) V části "Kategorie" klikneme na "Termíny svozů"
+
+			Očekávaný výsledek
+				Tabulka se soubory bude obsahovat pouze dva soubory
+
+			*****Testovací případ*****
+			ID - TC_10_03
+			Název - TC_10_03-VillageLifePage_WasteManagement_Hover_On_RSS_Button
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na který na stránce Život v obci v podstránce Odpadové hospodářství otestuje vlastnost hover u tlačítka RSS
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Odpadové hospodářství"
+
+			Testovací kroky
+				1) Najedeme myší na tlačítko "RSS"
+
+			Očekávaný výsledek
+				Tlačítko změní barvu na #f7f230 hex a nad tlačítkem se zobrazí věta "Více informací naleznete zde"
+
+			*****Testovací případ*****
+			ID - TC_10_04
+			Název - TC_10_04-VillageLifePage_WasteManagement_Search_Word_Odpad
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na stránce Život v obci v podstránce Odpadové hospodářství otestuje vyhledávání u tabulky se soubory
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Odpadové hospodářství"
+
+			Testovací kroky
+				1) Klikneme myší do vyhledávacího pole tabulky se soubory
+				2) Napíšeme "Odpad"
+				3) Stiskneme klávesu ENTER
+
+			Vstupní data
+				Odpad
+
+			Očekávaný výsledek
+				Tabulka se soubory bude obsahovat 5 záznamů
+
+			*****Testovací případ*****
+			ID - TC_10_05
+			Název - TC_10_05-VillageLifePage_WasteManagement_More_Info_About_RSS
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na který na stránce Život v obci v podstránce Odpadové hospodářství otestuje možnost zjištění více informací u tlačítka RSS
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Odpadové hospodářství"
+
+			Testovací kroky
+				1) Najedeme myší na tlačítko "RSS"
+				2) Klikneme na poslední slovo věty, která se objevila nad tlačítkem
+
+			Očekávaný výsledek
+				Objeví se stránka s nadpisem "Nápověda k RSS"
+
+			*****Testovací případ*****
+			ID - TC_10_06
+			Název - TC_10_06-VillageLifePage_WasteManagement_Click_RSS_Button
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který na který na stránce Život v obci v podstránce Odpadové hospodářství otestuje tlačítko RSS
+			Datum - 10.5.2021
+			Verze - 1.0
+			Pre-conditions
+				1) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Odpadové hospodářství"
+
+			Testovací kroky
+				1) Najedeme myší na tlačítko "RSS"
+				2) Klikneme na tlačítko
+
+			Očekávaný výsledek
+				Objeví se stránka s xml kódem
+
+		*****Testovací sada*****
+		ID - TS_11
+		Název - TS_11
+		Autor - Martin Půr
+		Popis - Sada manuálních testovacích případů, která testuje odkazy na stránce Obecní úřad
+		Datum - 10.5.2021
+		Verze - 1.0
+
+			*****Testovací případ*****
+			ID - TC_11_01
+			Název - TC_11_01-MunicipalOfficePage_NotificationRegister
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který otestuje stránku Registru oznámení, která je v menu pod možností Obecní úřad
+			Datum - 10.5.2021
+			Verze - 1.0
+			Testovací kroky
+				1) V hlavním menu myší najedeme na "Obecní úřad" a klikneme na možnost "Registr oznámení"
+
+			Očekávaný výsledek
+				Otevře se nová záložka internetového prohlížeče, na které se zobrazí stránka "cro.justice.cz"
+
+			*****Testovací případ*****
+			ID - TC_11_02
+			Název - TC_11_02-MunicipalOfficePage_PublicProcurement
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který otestuje stránku Veřejné zakázky, která je v menu pod možností Obecní úřad
+			Datum - 10.5.2021
+			Verze - 1.0
+			Testovací kroky
+				1) V hlavním menu myší najedeme na "Obecní úřad" a klikneme na možnost "Veřejné zakázky"
+
+			Očekávaný výsledek
+				Otevře se nová záložka internetového prohlížeče, na které se zobrazí stránka "https://www.vhodne-uverejneni.cz/profil/obec-krelov-bruchotin"
+
+			*****Testovací případ*****
+			ID - TC_11_03
+			Název - TC_11_03-MunicipalOfficePage_ElectronicFilingOffice
+			Autor - Martin Půr
+			Typ - Manuální
+			Popis - Testovací případ, který otestuje link stránky Elektronická podatelna, která je v menu pod možností Obecní úřad
+			Datum - 10.5.2021
+			Verze - 1.0
+			Testovací kroky
+				1) V hlavním menu myší najedeme na "Obecní úřad" a klikneme na možnost "Elektronická podatelna"
+				2) Najedeme myší na link, který se nachází na konci druhého odstavce
+				3) Klikneme na link
+
+			Očekávaný výsledek
+				Otevře se nová záložka internetového prohlížeče, na které se zobrazí stránka "ica.cz"
+
+		

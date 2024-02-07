@@ -1,0 +1,85 @@
+Hierarchie projektu tvořena názvy testovacích sad a případů
+
+Project
+	TS-cases01_main
+		TC_01_01-MainPage_Basic_Components_Small_Window
+		TC_01_02-MainPage_Basic_Components_Big_Window
+		TC_01_03-MainPage_Header_TopMenu
+		TC_01_04-MainPage_MainContent_Menu
+		TC_01_05-MainPage_Header_Swaping_Images
+		TC_01_06-MainPage_Partners_Links
+		TC_01_07-MainPage_Search_Informations
+		TC_01_08-MainPage_Recent_Events
+		TC_01_09-MainPage_Official_Desk
+
+	TS-cases02_VillageLife
+		TC_02_01-VillageLifePage_Register_For_Getting_News_To_Email_With_No_Email
+		TC_02_02-VillageLifePage_Register_For_Getting_News_To_Email_With_No_@_In_Email
+		TC_02_03-VillageLifePage_Register_For_Getting_News_To_Email_With_No_Suffix_In_Email
+		TC_02_04-VillageLifePage_Register_For_Getting_News_To_Email_Correctly
+
+	TS-cases03_Contact
+		TC_03-01-ContactPage_QuestionForm_Blank_Inputs
+		TC_03_02-ContactPage_QuestionForm_With_Only_Name
+		TC_03_03-ContactPage_QuestionForm_With_Email_Without_@
+		TC_03_04-ContactPage_QuestionForm_With_Email_Without_Suffix
+		TC_03_05-ContactPage_QuestionForm_With_Name_And_Email
+		TC_03_06-ContactPage_QuestionForm_With_Name_And_Email_Without_Message
+		TC_03_07-ContactPage_QuestionForm_With_All_Needed_Text_Attributes
+
+	TS-cases04_Organizations
+		TC_04_01-OrganizationsPage_Sokol_Links_In_Text
+		TC_04_02-OrganizationsPage_Sokol_Footer_Links
+		TC_04_03-OrganizationsPage_Sokol_Text_In_Paragraphs
+		TC_04_04-OrganizationsPage_Farnost_Images
+		TC_04_05-OrganizationsPage_Farnost_Links
+		TC_04_06-OrganizationsPage_Farnost_Text
+		TC_04_07-OrganizationsPage_FireFighters_Images
+		TC_04_08-OrganizationsPage_FireFighters_Text
+		TC_04_09-OrganizationsPage_KungFu_Links
+		TC_04_10-OrganizationsPage_KungFu_Text
+
+	TS-cases05_VillagDevelopment
+		TC_05_01-VillageDevelopmentPage_Sewerage_Form_Search
+		TC_05_02-VillageDevelopmentPage_Sewerage_Change_Form_Length
+		TC_05_03-VillageDevelopmentPage_Sewerage_Form_Archive
+		TC_05_04-VillageDevelopmentPage_GrantPrograms_Form_Search
+		TC_05_04-VillageDevelopmentPage_GrantPrograms_Form_Search
+		TC_05_06-VillageDevelopmentPage_Subsidy_Topics
+
+	TS-cases06_MunicipalOffice
+		TC_06_01-MunicipalOfficePage_Providing_Informations_Page_Navigation
+		TC_06_02-MunicipalOfficePage_Providing_Informations_Text
+		TC_06_03-MunicipalOfficePage_Mandatory_Informations_Links
+		TC_06_04-MunicipalOfficePage_Mandatory_Informations_Text
+
+	TS_07
+		TC_07_01-SportPage_Tennis_Reservation_Without_All_Informations
+		TC_07_02-SportPage_Tennis_Reservation_With_Only_Title
+		TC_07_03-SportPage_Tennis_Reservation_With_Email_Without_At-sign
+		TC_07_04-SportPage_Tennis_Reservation_With_Email_Without_Suffix
+		TC_07_05-SportPage_Tennis_Reservation_With_Correct_Informations
+
+
+	TS_08
+		TC_08_01-OrganizationsPage_Hunters_Hover_On_Link
+		TC_08_02-OrganizationsPage_Hunters_Picture
+
+	TS_09
+		TC_09_01-MainPage_Calendar_Change_Month
+		TC_09_02-MainPage_Calendar_Hover_On_Non_Colored_Day
+		TC_09_03-MainPage_Calendar_Hover_On_Red_Day
+		TC_09_04-MainPage_Map
+
+	TS_10
+		TC_10_01-VillageLifePage_WasteManagement_Change_Year
+		TC_10_02-VillageLifePage_WasteManagement_Choose_Non_Year_Category
+		TC_10_03-VillageLifePage_WasteManagement_Hover_On_RSS_Button
+		TC_10_04-VillageLifePage_WasteManagement_Search_Word_Odpad
+		TC_10_05-VillageLifePage_WasteManagement_More_Info_About_RSS
+		TC_10_06-VillageLifePage_WasteManagement_Click_RSS_Button
+
+	TS_11
+		TC_11_01-MunicipalOfficePage_NotificationRegister
+		TC_11_02-MunicipalOfficePage_PublicProcurement
+		TC_11_03-MunicipalOfficePage_ElectronicFilingOffice
