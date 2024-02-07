@@ -4,15 +4,15 @@ The primary goal is to ensure the reliability and functionality of the website t
 
 ## Project Structure
 
-**Pre-conditions**
-	1. Windows 10 (version: 19041.928)  
-	2. Internet connection available  
-	3. Mouse, keyboard and monitor  
-	4. Open a website www.krelov.cz  
-	5. Click the button "Přijmout cookies"  
+**Pre-conditions**  
+1. Windows 10 (version: 19041.928) 
+2. Internet connection available 
+3. Mouse, keyboard and monitor  
+4. Open a website www.krelov.cz
+5. Click the button "Přijmout cookies" 
 
 **Post-conditions**
-	1) Close browser  
+1. Close browser
 
 ### Test Suites
 1. **Main Page Tests**
