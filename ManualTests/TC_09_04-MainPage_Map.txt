@@ -1,0 +1,20 @@
+ID - TC_09_04
+Název - MainPage_Map
+Popis - Testovací případ, který na hlavní stránce ověří tlačítko mapy, které zobrazí na nové záložce umístění obce na mapě
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) Scrolujeme kolečkem u myši dolů dokud neuvidíme tlačítko "Kde najdete naši obec?"
+	2) Klikneme myší na toto tlačítko
+	3) Stiskneme na klávesnici současně klávesy WINDOWS + PRINTSCREEN
+
+Očekávaný výsledek
+	Otevře se nová záložka internetového prohlížeče, na které se zobrazí mapa obce a následně se do počítače uloží snímek obrazovky s mapou
+
+Verze - 1.0

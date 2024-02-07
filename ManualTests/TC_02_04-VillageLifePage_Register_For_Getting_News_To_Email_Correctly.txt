@@ -1,0 +1,25 @@
+ID - TC_02_04
+Název - TC_02_04-VillageLifePage_Register_For_News_To_Email_Correctly
+Popis - Testovací případ testující přihlášení se k novinkám pomocí platného emailu
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Aktuality"
+	7) Zkontrolujeme viditelnost tlačítka "Přihlásit se k odběru novinek"
+	8) Klikneme myší na tlačítko "Přihlásit se k odběru novinek"
+
+Testovací kroky
+	1) Do pole pro email zadáme "testing@email"
+	2) Klikneme myší na tlačítko "Přihlásit se k odběru"
+
+Vstupní data
+	testing@email.com
+
+Očekávaný výsledek
+	Objeví se oznámení, že potvrzení registrace bylo zasláno na email
+
+Verze - 1.0

@@ -1,0 +1,19 @@
+ID - TS_02
+Název - TS-cases02_VillageLife
+Popis - Sada manuálních testovacích případů, která testuje přihlášení se k odběru novinek o obci na stránce Život v obci
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	2) Otevřít web krelov.cz
+	3) Myš, klávesnice a obrazovka
+	4) Kliknutí na tlačítko "Přijmout cookies"
+
+Vstupní data
+	testing.email
+	testing@email
+	testing@email.com
+
+Post-conditions
+	1) Stisknout klávesu Screenshot
+	2) Zavřít internetový prohlížeč

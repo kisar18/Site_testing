@@ -1,0 +1,21 @@
+ID - TC_07_01
+Název - SportPage_Tennis_Reservation_Without_All_Informations
+
+Popis - Testovací případ, který na stránce Sport zkouší rezervovat tenisový kurt bez zadání informací o osobě, která chce vytvořit rezervaci
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Sport" a klikneme na možnost "Rezervační systém - TENISOVÉ KURTY"
+
+Testovací kroky
+	1) Klikneme myší na libovolný neobsazený termín (políčko se zelenou barvou)
+	2) Klikneme myší na tlačitko Vytvořit
+
+Očekávaný výsledek
+	Objeví se alert, který nás vyzývá k zadání názvu
+
+Verze - 1.0

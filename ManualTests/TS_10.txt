@@ -1,0 +1,11 @@
+ID - TS_10
+Název - TS_10
+Popis - Sada manuálních testovacích případů, která testuje na stránce Život v obci v podstránce Odpadové hospodářství funkčnost tabulky se soubory a tlačítka RSS
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	2) Otevřít web krelov.cz
+	3) Myš, klávesnice a obrazovka
+	4) Kliknutí na tlačítko "Přijmout cookies"
+	5) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Odpadové hospodářství"

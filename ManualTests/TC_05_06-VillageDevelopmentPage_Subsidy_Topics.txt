@@ -1,0 +1,24 @@
+ID - TC_05_06
+Název - TC_05_06-VillageDevelopmentPage_Subsidy_Topics
+Popis - Testovací případ, který na stránce Rozvoj obce na podstránce Dotace testuje články
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Rozvoj obce" a klikneme na možnost "Dotace"
+
+Testovací kroky
+	1) Klikneme myší na první článek v tělu stránky
+	2) V prohlížeči klikneme myší na tlačítko zpět
+	3) Klikneme myší na druhý článek v tělu stránky
+	4) V prohlížeči klikneme myší na tlačítko zpět
+	5) Klikneme myší na třetí článek v tělu stránky
+	6) V prohlížeči klikneme myší na tlačítko zpět
+
+Očekávaný výsledek
+	Zobrazí se detail článku a v jeho pravém dolním rohu bude informace "Publikováno"
+
+Verze - 1.0

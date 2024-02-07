@@ -1,0 +1,21 @@
+ID - TC_04_06
+Název - TC_04_06-OrganizationsPage_Farnost_Text
+Popis - Testovací případ, který na stránce Spolky v obci na podstránce Farnost testuje text
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Farnost"
+
+Testovací kroky
+	1) Zkontrolujeme, že první odstavec obsahuje slovo "zmínky"
+	2) Zkontrolujeme, že šestý odstavec obsahuje slovo "Středa"
+	3) Zkontrolujeme, že desátý odstavec obsahuje slovo "poustevník"
+
+Očekávaný výsledek
+	Dané odstavce obsahují zmíněná slova
+
+Verze - 1.0

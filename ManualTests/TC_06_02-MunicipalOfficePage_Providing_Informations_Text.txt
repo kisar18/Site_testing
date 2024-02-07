@@ -1,0 +1,21 @@
+ID - TC_06_02
+Název - TC_06_02-MunicipalOfficePage_Providing_Informations_Text
+Popis - Testovací případ, který na stránce Obecní úřad na podstránce Poskytování informací, příjem podání, výroční zprávy testuje text
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Obecní úřad" a klikneme na možnost "Poskytování informací, příjem podání, výroční zprávy"
+
+Testovací kroky
+	1) Zkontrolujeme, že sedmý odstavec obsahuje slovo "žádosti"
+	2) Zkontrolujeme, že devátý odstavec obsahuje slovo "Neobsahuje-li"
+	3) Zkontrolujeme, že třináctý odstavec obsahuje slovo "Ostatní"
+
+Očekávaný výsledek
+	Dané odstavce obsahují zmíněná slova
+
+Verze - 1.0

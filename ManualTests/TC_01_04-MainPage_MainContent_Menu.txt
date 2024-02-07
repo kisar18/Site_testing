@@ -1,0 +1,20 @@
+ID - TC_01_04
+Název - TC_01_04-MainPage_MainContent_Menu
+Popis - Testovací případ testující viditelnost položek menu na hlavní stránce v tělu stránky
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) Zkontrolujeme viditelnost prvního prvku menu v tělu stránky
+	2) Zkontrolujeme viditelnost druhého prvku menu v tělu stránky
+	3) Zkontrolujeme viditelnost třetího prvku menu v tělu stránky
+
+Očekávaný výsledek
+	Všechny prvky menu jsou viditelné
+
+Verze - 1.0

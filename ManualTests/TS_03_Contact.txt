@@ -1,0 +1,21 @@
+ID - TS_03
+Název - TS-cases03_Contact
+Popis - Sada manuálních testovacích případů, která testuje posílání zpráv na stránce Kontakt
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	2) Otevřít web krelov.cz
+	3) Myš, klávesnice a obrazovka
+	4) Kliknutí na tlačítko "Přijmout cookies"
+
+Vstupní data
+	Tester
+	testing.email
+	testing@email
+	testing@email.com
+	Test, tento email neberte vážně
+
+Post-conditions
+	1) Stisknout klávesu Screenshot
+	2) Zavřít internetový prohlížeč

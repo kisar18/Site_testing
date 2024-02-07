@@ -1,0 +1,19 @@
+ID - TC_01_02
+Název - TC_01_02-MainPage_Basic_Components_Big_Window
+Popis - Testovací případ testující základní komponenty ve velkém oknu prohlížeče
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) Maximalizujeme okno prohlížeče
+	2) Zkontrolujeme viditelnost základních komponent, jako jsou: obrázek hlavičky, emblem, ikona menu a vyhledávací ikona
+
+Očekávaný výsledek
+	Všechny základní komponenty by měly být viditelné v prohlížeči
+
+Verze - 1.0

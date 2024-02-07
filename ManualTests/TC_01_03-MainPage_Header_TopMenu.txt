@@ -1,0 +1,28 @@
+ID - TC_01_03
+Název - TC_01_03-MainPage_Header_TopMenu
+Popis - Testovací případ testující menu v hlavičce a případně zobrazení dropdown možností
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) Zkontrolujeme viditelnost prvního prvku menu v hlavičce
+	2) Najedeme myší na druhý prvek hlavičkového menu
+	3) Zkontrolujeme viditelnost druhého prvku a jeho dropdownu v menu hlavičky
+	4) Najedeme myší na třetí prvek hlavičkového menu
+	5) Zkontrolujeme viditelnost třetího prvku a jeho dropdownu v menu hlavičky
+	6) Najedeme myší na čtvrtý prvek hlavičkového menu
+	7) Zkontrolujeme viditelnost čtvrtého prvku a jeho dropdownu v menu hlavičky
+	8) Zkontrolujeme viditelnost pátého prvku menu v hlavičce
+	9) Najedeme myší na šestý prvek hlavičkového menu
+	10) Zkontrolujeme viditelnost šestého prvku a jeho dropdownu v menu hlavičky
+	11) Zkontrolujeme viditelnost sedmého prvku menu v hlavičce
+
+Očekávaný výsledek
+	Všechny prvky menu a jejich dropdown položky jsou ve správný moment viditelné
+
+Verze - 1.0

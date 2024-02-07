@@ -1,0 +1,20 @@
+ID - TC_03_06
+Název - TC_03_06-ContactPage_QuestionForm_Without_Message
+Popis - Testovací případ testující zasílání dotazu bez napsání zprávy
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší klikneme na možnost "Kontakt"
+	7) Scrolujeme myší dolů na formulář pro dotazy
+
+Testovací kroky
+	1) Klikneme myší na tlačítko "Odeslat"
+
+Očekávaný výsledek
+	Objeví se alert, který požaduje napsání zprávy (dotazu)
+
+Verze - 1.0

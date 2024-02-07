@@ -1,0 +1,22 @@
+ID - TC_04_05
+Název - TC_04_05-OrganizationsPage_Farnost_Links
+Popis - Testovací případ, který na stránce Spolky v obci na podstránce Farnost testuje linky
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Farnost"
+
+Testovací kroky
+	1) Klikneme myší na na první tlačítko v menu stránky (Historie)
+	2) Klikneme myší na na druhé tlačítko v menu stránky (Bohoslužby)
+	3) Klikneme myší na na třetí tlačítko v menu stránky (Kontakty)
+	4) Klikneme myší na na čtvrté tlačítko v menu stránky (Svatý Jiljí)
+
+Očekávaný výsledek
+	Po každém kliknutí na tlačítko menu se obrazovka scroluje na odstavec s daným tématem tlačítka
+
+Verze - 1.0

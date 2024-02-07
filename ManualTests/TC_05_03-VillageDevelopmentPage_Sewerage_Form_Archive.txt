@@ -1,0 +1,22 @@
+ID - TC_05_03
+Název - TC_05_03-VillageDevelopmentPage_Sewerage_Form_Archive
+Popis - Testovací případ, který na stránce Rozvoj obce na podstránce Výstavba kanalizace testuje záložku archiv v tabulce se záznamy
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Rozvoj obce" a klikneme na možnost "Výstavba kanalizace"
+
+Testovací kroky
+	1) Zkontrolujeme viditelnost tabulky se záznamy
+	2) Klikneme myší na tlačítko, nad kterým je napsáno "Zobrazit"
+	3) Stiskneme klávesu DOWN
+	4) Stiskneme klávesu ENTER
+
+Očekávaný výsledek
+	Tabulka se záznamy by měla obsahovat pouze jeden záznam
+
+Verze - 1.0

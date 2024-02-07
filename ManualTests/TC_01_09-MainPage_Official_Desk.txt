@@ -1,0 +1,26 @@
+ID - TC_01_09
+Název - TC_01_09-MainPage_Official_Desk
+Popis - Testovací případ testující úřední desku na hlavní stránce
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) Zkontrolujeme viditelnost první (horní) informace na úřední desce na hlavní stránce
+	2) Klikneme myší na první informaci na úřední desce
+	3) Klikneme myší v prohlížeči na tlačítko zpět
+	4) Zkontrolujeme viditelnost druhé informace na úřední desce na hlavní stránce
+	5) Klikneme myší na druhou informaci na úřední desce
+	6) Klikneme myší v prohlížeči na tlačítko zpět
+	7) Zkontrolujeme viditelnost třetí informace na úřední desce na hlavní stránce
+	8) Klikneme myší na třetí informaci na úřední desce
+	9) Klikneme myší v prohlížeči na tlačítko zpět
+
+Očekávaný výsledek
+	Pro každé kliknutí na informaci na úřední desce se zobrazí její detail, na němž bude i informace o datu "Vyvěšeno"
+
+Verze - 1.0

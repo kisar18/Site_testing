@@ -1,0 +1,27 @@
+ID - TC_07_03
+Název - SportPage_Tennis_Reservation_With_Email_Without_At-sign
+
+Popis - Testovací případ, který zkouší na stránce Sport rezervovat tenisový kurt se zadáním emailu bez zavináče
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Sport" a klikneme na možnost "Rezervační systém - TENISOVÉ KURTY"
+
+Testovací kroky
+	1) Klikneme myší na libovolný neobsazený termín (políčko se zelenou barvou)
+	2) Do pole "Název/nadpis" napíšeme "Rezervace"
+	3) Do pole "Email" napíšeme "testing.email"
+	4) Klikneme myší na tlačitko Vytvořit
+
+Vstupní data
+	Rezervace
+	testing.email
+
+Očekávaný výsledek
+	Pod polem emailu se objeví upozornění, který nás vyzývá k zadání emailu se zavináčem
+
+Verze - 1.0

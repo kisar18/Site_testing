@@ -1,0 +1,11 @@
+ID - TS_08
+Název - TS_08
+Popis - Sada manuálních testovacích případů, která testuje link a obrázkek na stránce Spolky v obci ve spolku Myslivci
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	2) Otevřít web krelov.cz
+	3) Myš, klávesnice a obrazovka
+	4) Kliknutí na tlačítko "Přijmout cookies"
+	5) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Myslivci"

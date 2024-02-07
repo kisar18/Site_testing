@@ -1,0 +1,19 @@
+ID - TC_10_02
+Název - VillageLifePage_WasteManagement_Choose_Non_Year_Category
+Popis - Testovací případ, který na stránce Život v obci v podstránce Odpadové hospodářství otestuje ne číselnou (roční) kategorii u tabulky se soubory
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Odpadové hospodářství"
+
+Testovací kroky
+	1) V části "Kategorie" klikneme na "Termíny svozů"
+
+Očekávaný výsledek
+	Tabulka se soubory bude obsahovat pouze dva soubory
+
+Verze - 1.0

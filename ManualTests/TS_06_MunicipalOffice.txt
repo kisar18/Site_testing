@@ -1,0 +1,14 @@
+ID - TS_06
+Název - TS-cases06_MunicipalOffice
+Popis - Sada manuálních testovacích případů, která testuje komponenty na stránce Obecní úřad
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	2) Otevřít web krelov.cz
+	3) Myš, klávesnice a obrazovka
+	4) Kliknutí na tlačítko "Přijmout cookies"
+
+Post-conditions
+	1) Stisknout klávesu Screenshot
+	2) Zavřít internetový prohlížeč

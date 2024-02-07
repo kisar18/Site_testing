@@ -1,0 +1,17 @@
+ID - TS_07
+Název - TS_07
+Popis - Sada manuálních testovacích případů, která testuje rezervaci tenisových kurtů na stránce Sport
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	2) Otevřít web krelov.cz
+	3) Myš, klávesnice a obrazovka
+	4) Kliknutí na tlačítko "Přijmout cookies"
+	5) V hlavním menu myší najedeme na "Sport" a klikneme na možnost "Rezervační systém - TENISOVÉ KURTY"
+
+Vstupní data
+	Rezervace
+	testing.email
+	testing@email
+	m_pur@utb.cz

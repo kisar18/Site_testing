@@ -1,0 +1,32 @@
+ID - TC_01_08
+Název - TC_01_08-MainPage_Recent_Events
+Popis - Testovací případ testující kalendář akcí na hlavní stránce
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) Zkontrolujeme viditelnost okna Kalendář akcí na hlavní stránky
+	2) Klikneme myší na Kalendář akcí
+	3) Zkontrolujeme viditelnost první (levé) události
+	4) Klikneme myší na první událost
+	5) Klikneme v prohlížeči na tlačítko zpět
+	6) Zkontrolujeme viditelnost okna Kalendář akcí na hlavní stránky
+	7) Klikneme myší na Kalendář akcí
+	8) Zkontrolujeme viditelnost druhé události
+	9) Klikneme myší na druhou událost
+	10) Klikneme v prohlížeči na tlačítko zpět
+	11) Zkontrolujeme viditelnost okna Kalendář akcí na hlavní stránky
+	12) Klikneme myší na Kalendář akcí
+	13) Zkontrolujeme viditelnost třetí události
+	14) Klikneme myší na třetí událost
+	15) Klikneme v prohlížeči na tlačítko zpět
+
+Očekávaný výsledek
+	Pro každé kliknutí na událost se zobrazí její detail s textem uprostřed stránky Zpět na přehled
+
+Verze - 1.0

@@ -1,0 +1,43 @@
+ID - TC_01_07
+Název - TC_01_07-MainPage_Search_Informations
+Popis - Testovací případ testující možnost vyhledávání textu na hlavní stránce
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) Zkontrolujeme viditelnost ikony lupy v hlavičce hlavní stránky
+	2) Klikneme myší na ikonu lupy
+	3) Zkontrolujeme viditelnost řádku pro psaní textu k vyhledávání
+	4) Klikneme myší do textového pole pro zapsání textu pro vyhledávání
+	5) Napíšeme do textového pole slovo "Sport"
+	6) Zkontrolujeme viditelnost vnitřní ikony lupy v textovém poly vyhledávání
+	7) Klikneme myší na vnitřní ikonu lupy pro vyhledání napsaného výrazu
+	8) Zkontrolujeme viditelnost ikony lupy v hlavičce
+	9) Klikneme myší na ikonu lupy
+	10) Zkontrolujeme viditelnost řádku pro psaní textu k vyhledávání
+	11) Klikneme myší do textového pole pro zapsání textu pro vyhledávání
+	12) Napíšeme do textového pole slovo "Zpravodaj"
+	13) Zkontrolujeme viditelnost vnitřní ikony lupy v textovém poly vyhledávání
+	14) Klikneme myší na vnitřní ikonu lupy pro vyhledání napsaného výrazu
+	15) Zkontrolujeme viditelnost ikony lupy v hlavičce
+	16) Klikneme myší na ikonu lupy
+	17) Zkontrolujeme viditelnost řádku pro psaní textu k vyhledávání
+	18) Klikneme myší do textového pole pro zapsání textu pro vyhledávání
+	19) Napíšeme do textového pole slovo "Kontakt"
+	20) Zkontrolujeme viditelnost vnitřní ikony lupy v textovém poly vyhledávání
+	21) Klikneme myší na vnitřní ikonu lupy pro vyhledání napsaného výrazu
+
+Vstupní data
+	Sport
+	Zpravodaj
+	Kontakt
+
+Očekávaný výsledek
+	Pro každé vyhledané slovo se zobrazí oznámení, že hledaný výraz byl nalezen
+
+Verze - 1.0

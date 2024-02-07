@@ -1,0 +1,20 @@
+ID - TC_09_01
+Název - MainPage_Calendar_Change_Month
+Popis - Testovací případ, který na hlavní stránce ověří možnost v kalendáři změnit měsíc
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) Scrolujeme kolečkem u myši dolů dokud neuvidíme kalendář
+	2) Najedeme myší na tlačítko pro další měsíc
+	3) Klikneme na tlačítko dalšího měsíce
+
+Očekávaný výsledek
+	Kalendář změní svůj lavní obsah na následující měsíc
+
+Verze - 1.0

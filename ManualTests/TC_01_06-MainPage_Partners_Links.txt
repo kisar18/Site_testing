@@ -1,0 +1,25 @@
+ID - TC_01_06
+Název - TC_01_06-MainPage_Partners_Links
+Popis - Testovací případ testující funkčnost linků hlavní stránky na partnery obce
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) Zkontrolujeme viditelnost bloku, ve kterém se nacházejí linky na partnery obce 
+	2) Klikneme myší na ikonu prvního partnera obce a stiskneme klávesu PRINTSCREEN
+	3) Vrátíme se na záložku prohlížeče, ve které je hlavní stránka obce
+	4) Klikneme myší na ikonu druhého partnera obce a stiskneme klávesu PRINTSCREEN
+	5) Vrátíme se na záložku prohlížeče, ve které je hlavní stránka obce
+	6) Klikneme myší na ikonu třetího partnera obce a stiskneme klávesu PRINTSCREEN
+	7) Vrátíme se na záložku prohlížeče, ve které je hlavní stránka obce
+	8) Klikneme myší na ikonu čtvrtého partnera obce a stiskneme klávesu PRINTSCREEN
+
+Očekávaný výsledek
+	Otevřou se jednotlivé záložky prohlížeče, na kterých budou vyobrazeny webové stránky partnerů obce
+
+Verze - 1.0

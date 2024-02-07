@@ -1,0 +1,27 @@
+ID - TC_04_01
+Název - TC_04_01-OrganizationsPage_Sokol_Links_In_Text
+Popis - Testovací případ testující linky na stránce Spolky v obci na záložce Sokol
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "T.J. Sokol Křelov"
+
+Testovací kroky
+	1) Klikneme myší na první odkaz v textu (začíná slovem "České")
+	2) Stiskneme klávesu PRINTSCREEN
+	3) V prohlížeči klikneme na tlačítko zpět
+	4) Klikneme myší na druhý odkaz v textu (začíná slovem "Olomouckého")
+	5) Stiskneme klávesu PRINTSCREEN
+	6) V prohlížeči klikneme na tlačítko zpět
+	7) Klikneme myší na třetí odkaz v textu (začíná slovem "Sokolské")
+	8) Stiskneme klávesu PRINTSCREEN
+	9) V prohlížeči klikneme na tlačítko zpět
+
+Očekávaný výsledek
+	Při každém kliknutí na link se otevře nová záložka prohlížeče s danou webovou stránkou
+
+Verze - 1.0

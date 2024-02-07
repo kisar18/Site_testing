@@ -1,0 +1,18 @@
+ID - TC_11_02
+Název - MunicipalOfficePage_PublicProcurement
+Popis - Testovací případ, který otestuje stránku Veřejné zakázky, která je v menu pod možností Obecní úřad
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) V hlavním menu myší najedeme na "Obecní úřad" a klikneme na možnost "Veřejné zakázky"
+
+Očekávaný výsledek
+	Otevře se nová záložka internetového prohlížeče, na které se zobrazí stránka "https://www.vhodne-uverejneni.cz/profil/obec-krelov-bruchotin"
+
+Verze - 1.0

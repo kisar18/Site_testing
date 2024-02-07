@@ -1,0 +1,21 @@
+ID - TC_05_05
+Název - TC_05_05-VillageDevelopmentPage_GrantPrograms_Texts
+Popis - Testovací případ, který na stránce Rozvoj obce na podstránce Dotační programy testuje text
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Rozvoj obce" a klikneme na možnost "Dotační programy"
+
+Testovací kroky
+	1) Zkontrolujeme, že první odstavec obsahuje slovo "Podklady"
+	2) Zkontrolujeme, že druhý odstavec obsahuje slovo "Profil"
+	3) Zkontrolujeme, že třetí odstavec obsahuje slovo "Archiv"
+
+Očekávaný výsledek
+	Dané odstavce obsahují zmíněná slova
+
+Verze - 1.0

@@ -1,0 +1,24 @@
+ID - TC_03_02
+Název - TC_03_02-ContactPage_QuestionForm_With_Only_Name
+Popis - Testovací případ testující zasílání dotazu pouze s vyplněným jménem
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší klikneme na možnost "Kontakt"
+	7) Scrolujeme myší dolů na formulář pro dotazy
+
+Testovací kroky
+	1) Do pole "Jméno" napíšeme "Tester"
+	2) Klikneme myší na tlačítko "Odeslat"
+
+Vstupní data
+	Tester
+
+Očekávaný výsledek
+	Objeví se alert, který požaduje vypnění emailu
+
+Verze - 1.0

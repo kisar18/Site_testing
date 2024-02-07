@@ -1,0 +1,24 @@
+ID - TC_10_04
+Název - VillageLifePage_WasteManagement_Search_Word_Odpad
+Popis - Testovací případ, který na stránce Život v obci v podstránce Odpadové hospodářství otestuje vyhledávání u tabulky se soubory
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Odpadové hospodářství"
+
+Testovací kroky
+	1) Klikneme myší do vyhledávacího pole tabulky se soubory
+	2) Napíšeme "Odpad"
+	3) Stiskneme klávesu ENTER
+
+Vstupní data
+	Odpad
+
+Očekávaný výsledek
+	Tabulka se soubory bude obsahovat 5 záznamů
+
+Verze - 1.0

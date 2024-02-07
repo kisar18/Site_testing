@@ -1,0 +1,24 @@
+ID - TC_03_07
+Název - TC_03_07-ContactPage_QuestionForm_With_All_Needed_Attributes
+Popis - Testovací případ testující zasílání dotazu se všemi potřebnými parametry
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší klikneme na možnost "Kontakt"
+	7) Scrolujeme myší dolů na formulář pro dotazy
+
+Testovací kroky
+	1) Do "Vaše zpráva" napíšeme "Test, tento email neberte vážně"
+	2) Klikneme myší na tlačítko "Odeslat"
+
+Vstupní data
+	Test, tento email neberte vážně
+
+Očekávaný výsledek
+	Objeví se aoznámení, že zpráva byla odeslána
+
+Verze - 1.0

@@ -1,0 +1,21 @@
+ID - TC_04_09
+Název - TC_04_09-OrganizationsPage_KungFu_Links
+Popis - Testovací případ, který na stránce Spolky v obci na podstránce Taijiquan Shaolin kung-fu testuje linky
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Taijiquan Shaolin kung-fu"
+
+Testovací kroky
+	1) Zkontrolujeme, že link v části "Taiji" po najetí myší zčervená
+	2) Zkontrolujeme, že link v části "Shaolin" po najetí myší zčervená
+	3) Zkontrolujeme, že link v části "Cvičení probíhá v tělocvičně na Obecním úřadě v Křelově" po najetí myší zčervená
+
+Očekávaný výsledek
+	Po najetí myší na linky zčervená jejich text
+
+Verze - 1.0

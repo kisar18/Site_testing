@@ -1,0 +1,21 @@
+ID - TC_04_07
+Název - TC_04_07-OrganizationsPage_FireFighters_Images
+Popis - Testovací případ, který na stránce Spolky v obci na podstránce Sbor dobrovolných hasičů testuje obrázky
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Sbor dobrovolných hasičů"
+
+Testovací kroky
+	1) Zkontrolujeme, že stránka obsahuje obrázek loga Sboru hasičů
+	2) Zkontrolujeme, že stránka obsahuje obrázek hasičského auta
+	3) Zkontrolujeme, že stránka obsahuje obrázek hasičský ples
+
+Očekávaný výsledek
+	Stránka obsahuje všechny obrázky
+
+Verze - 1.0

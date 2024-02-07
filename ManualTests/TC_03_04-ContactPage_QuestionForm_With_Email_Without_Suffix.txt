@@ -1,0 +1,24 @@
+ID - TC_03_04
+Název - TC_03_04-ContactPage_QuestionForm_With_Email_Without_Suffix
+Popis - Testovací případ testující zasílání dotazu s emailem bez koncovky
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší klikneme na možnost "Kontakt"
+	7) Scrolujeme myší dolů na formulář pro dotazy
+
+Testovací kroky
+	1) Do pole "Email" napíšeme "testing@email"
+	2) Klikneme myší na tlačítko "Odeslat"
+
+Vstupní data
+	testing@email
+
+Očekávaný výsledek
+	Objeví se alert, který požaduje zadání platného emailu
+
+Verze - 1.0

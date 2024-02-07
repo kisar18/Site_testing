@@ -1,0 +1,18 @@
+ID - TC_11_01
+Název - MunicipalOfficePage_NotificationRegister
+Popis - Testovací případ, který otestuje stránku Registru oznámení, která je v menu pod možností Obecní úřad
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) V hlavním menu myší najedeme na "Obecní úřad" a klikneme na možnost "Registr oznámení"
+
+Očekávaný výsledek
+	Otevře se nová záložka internetového prohlížeče, na které se zobrazí stránka "cro.justice.cz"
+
+Verze - 1.0

@@ -1,0 +1,21 @@
+ID - TC_04_04
+Název - TC_04_04-OrganizationsPage_Farnost_Images
+Popis - Testovací případ, který na stránce Spolky v obci na podstránce Farnost testuje obrázky
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Farnost"
+
+Testovací kroky
+	1) Zkontrolujeme, že stránka obsahuje obrázek vnitřku kostela
+	2) Zkontrolujeme, že stránka obsahuje obrázek kostelu z venku z levé strany
+	3) Zkontrolujeme, že stránka obsahuje obrázek kostelu z venku z přední strany
+
+Očekávaný výsledek
+	Stránka obsahuje všechny obrázky
+
+Verze - 1.0

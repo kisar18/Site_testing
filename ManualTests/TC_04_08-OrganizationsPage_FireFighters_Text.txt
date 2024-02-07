@@ -1,0 +1,21 @@
+ID - TC_04_08
+Název - TC_04_08-OrganizationsPage_FireFighters_Text
+Popis - Testovací případ, který na stránce Spolky v obci na podstránce Sbor dobrovolných hasičů testuje text
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Sbor dobrovolných hasičů"
+
+Testovací kroky
+	1) Zkontrolujeme, že první odstavec obsahuje slovo "SDH"
+	2) Zkontrolujeme, že třetí odstavec obsahuje slovo "Sbor"
+	3) Zkontrolujeme, že sedmý odstavec obsahuje slovo "historie"
+
+Očekávaný výsledek
+	Dané odstavce obsahují zmíněná slova
+
+Verze - 1.0

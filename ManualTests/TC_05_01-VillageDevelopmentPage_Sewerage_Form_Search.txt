@@ -1,0 +1,38 @@
+ID - TC_05_01
+Název - TC_05_01-VillageDevelopmentPage_Sewerage_Form_Search
+Popis - Testovací případ, který na stránce Rozvoj obce na podstránce Výstavba kanalizace testuje vyhledávání záznamů v tabulce
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Rozvoj obce" a klikneme na možnost "Výstavba kanalizace"
+
+Testovací kroky
+	1) Zkontrolujeme viditelnost pole pro psaní textu
+	2) Klikneme myší na pole pro zadání textu
+	3) Napíšeme slovo "Rozdělení"
+	4) Stiskneme klávesu ENTER
+	5) Vymažeme slovo z textového pole
+	6) Zkontrolujeme viditelnost pole pro psaní textu
+	7) Klikneme myší na pole pro zadání textu
+	8) Napíšeme slovo "Seznam"
+	9) Stiskneme klávesu ENTER
+	10) Vymažeme slovo z textového pole
+	11) Zkontrolujeme viditelnost pole pro psaní textu
+	12) Klikneme myší na pole pro zadání textu
+	13) Napíšeme slovo "Oznámení"
+	14) Stiskneme klávesu ENTER
+	15) Vymažeme slovo z textového pole
+
+Vstupní data
+	Rozdělení
+	Seznam
+	Oznámení
+
+Očekávaný výsledek
+	U každého hledaného slova tabulka najde jeden odpovídající záznam
+
+Verze - 1.0

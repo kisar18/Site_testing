@@ -1,0 +1,20 @@
+ID - TC_10_05
+Název - VillageLifePage_WasteManagement_More_Info_About_RSS
+Popis - Testovací případ, který na který na stránce Život v obci v podstránce Odpadové hospodářství otestuje možnost zjištění více informací u tlačítka RSS
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Život v obci" a klikneme na možnost "Odpadové hospodářství"
+
+Testovací kroky
+	1) Najedeme myší na tlačítko "RSS"
+	2) Klikneme na poslední slovo věty, která se objevila nad tlačítkem
+
+Očekávaný výsledek
+	Objeví se stránka s nadpisem "Nápověda k RSS"
+
+Verze - 1.0

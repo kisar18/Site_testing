@@ -1,0 +1,24 @@
+ID - TC_06_03
+Název - TC_06_03-MunicipalOfficePage_Mandatory_Informations_Links
+Popis - Testovací případ, který na stránce Obecní úřad na podstránce Povinně zveřejňované informace testuje linky
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší klikneme na "Obecní úřad"
+
+Testovací kroky
+	1) Stiskneme klávesu CTRL a zároveň klikneme myší na jedenáctý odkaz
+	2) Stiskneme klávesu PRINTSCREEN
+	3) Vrátíme se na záložku prohlížeče, ve které je hlavní stránka obce
+	4) Stiskneme klávesu CTRL a zároveň klikneme myšína dvanáctý odkaz
+	5) Stiskneme klávesu PRINTSCREEN
+	6) Vrátíme se na záložku prohlížeče, ve které je hlavní stránka obce
+
+Očekávaný výsledek
+	Otevřou se jednotlivé záložky prohlížeče, na kterých budou vyobrazeny webové stránky
+
+Verze - 1.0

@@ -1,0 +1,19 @@
+ID - TC_09_02
+Název - MainPage_Calendar_Hover_On_Non_Colored_Day
+Popis - Testovací případ, který na hlavní stránce otestuje vlastnost hover v kalendáři u dne bez barevného kruhu na pozadí
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+
+Testovací kroky
+	1) Scrolujeme kolečkem u myši dolů dokud neuvidíme kalendář
+	2) Najedeme myší na číslo dnu, které na sobě nemá barevný kruh
+
+Očekávaný výsledek
+	U daného dne se objeví kolečko s barvou #bd2b1d hex
+
+Verze - 1.0

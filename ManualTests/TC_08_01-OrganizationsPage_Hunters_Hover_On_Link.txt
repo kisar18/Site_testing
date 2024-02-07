@@ -1,0 +1,19 @@
+ID - TC_08_01
+Název - OrganizationsPage_Hunters_Hover_On_Link
+Popis - Testovací případ, který testuje vlastnost hover u linku v textu na stránce Spolky v obci u spolku Myslivci
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Myš, klávesnice a obrazovka
+	4) Otevřít web krelov.cz
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Myslivci Křelov"
+
+Testovací kroky
+	1) Najedeme myší do třetího odstavce na druhý řádek a na druhé slovo ("zajíci")
+
+Očekávaný výsledek
+	Slovo (link) "zajíci" změní barvu na #bd2b1d hex.
+
+Verze - 1.0

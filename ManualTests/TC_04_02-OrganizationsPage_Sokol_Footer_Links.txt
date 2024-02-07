@@ -1,0 +1,28 @@
+ID - TC_04_02
+Název - TC_04_02-OrganizationsPage_Sokol_Footer_Links
+Popis - Testovací případ, který testuje na stránce Spolky v obci na záložce Sokol linky v patičce těla
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "T.J. Sokol Křelov"
+
+Testovací kroky
+	1) Scrolujeme myší na konec hlavní části stránky
+	2) Klikneme myší na první odkaz T.J. Sokol Křelov (Web)
+	3) Stiskneme klávesu PRINTSCREEN
+	4) V prohlížeči klikneme na tlačítko zpět
+	5) Klikneme myší na druhý odkaz T.J. Sokol Křelov (Facebook)
+	6) Stiskneme klávesu PRINTSCREEN
+	7) V prohlížeči klikneme na tlačítko zpět
+	8) Klikneme myší na třetí odkaz T.J. Sokol Křelov (Kontakty)
+	9) Stiskneme klávesu PRINTSCREEN
+	10) V prohlížeči klikneme na tlačítko zpět
+
+Očekávaný výsledek
+	Při každém kliknutí na link se otevře nová záložka prohlížeče s danou webovou stránkou
+
+Verze - 1.0

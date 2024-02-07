@@ -1,0 +1,21 @@
+ID - TC_04_10
+Název - TC_04_10-OrganizationsPage_KungFu_Text
+Popis - Testovací případ, který na stránce Spolky v obci na podstránce Taijiquan Shaolin kung-fu testuje text
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Spolky v obci" a klikneme na možnost "Taijiquan Shaolin kung-fu"
+
+Testovací kroky
+	1) Zkontrolujeme, že první odstavec obsahuje slovo "vývojem"
+	2) Zkontrolujeme, že druhý odstavec obsahuje slovo "čínské"
+	3) Zkontrolujeme, že šestý odstavec obsahuje slovo "autobusem"
+
+Očekávaný výsledek
+	Dané odstavce obsahují zmíněná slova
+
+Verze - 1.0

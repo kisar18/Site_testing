@@ -1,0 +1,21 @@
+ID - TC_06_01
+Název - TC_06_01-MunicipalOfficePage_Providing_Informations_Page_Navigation
+Popis - Testovací případ, který na stránce Obecní úřad na podstránce Poskytování informací, příjem podání, výroční zprávy testuje vlastní navigaci
+
+Pre-conditions
+	1) Windows 10 (verze: 19041.928)
+	2) Dostupné připojení k internetu
+	3) Otevřít web krelov.cz
+	4) Myš, klávesnice a obrazovka
+	5) Kliknutí na tlačítko "Přijmout cookies"
+	6) V hlavním menu myší najedeme na "Obecní úřad" a klikneme na možnost "Poskytování informací, příjem podání, výroční zprávy"
+
+Testovací kroky
+	1) Klikneme myší na na první tlačítko ve vlastní navigaci stránky (Žádosti o informace)
+	2) Klikneme myší na na druhé tlačítko ve vlastní navigaci stránky (Příjem žádostí a dalších podání)
+	3) Klikneme myší na na třetí tlačítko ve vlastní navigaci stránky (Opravné prostředky)
+
+Očekávaný výsledek
+	Po každém kliknutí na tlačítko vlastní navigace se obrazovka scroluje na odstavec s daným tématem tlačítka
+
+Verze - 1.0
